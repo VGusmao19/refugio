@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:refugio/screens/home.dart';
+import 'package:refugio/screens/home/home.dart';
 
 void main(){
   runApp(MaterialApp(
