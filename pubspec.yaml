@@ -34,6 +34,16 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/CircularStd-Bold.otf
+    - family: CircularStdBook
+      fonts:
+        - asset: assets/fonts/CircularStd-Book.otf
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -41,9 +51,15 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+   - assets/images/
+
+   #Icons
+   - assets/icons/
+
+   #bottom icons
+   - assets/icons/bottom_nav/
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
